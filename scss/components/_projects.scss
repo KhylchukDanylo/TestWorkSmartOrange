@@ -1,0 +1,57 @@
+.main-project {
+  width: 1172px;
+
+  .section-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: #bdbdbd;
+  }
+
+  .project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+
+    &__img__q,
+    &__img__w,
+    &__img__r,
+    &__img__t {
+      width: 570px;
+    }
+
+    &__img__e {
+      width: 270px;
+    }
+  }
+
+  .button {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 222px;
+    height: 71px;
+    background-color: #333333;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: #bdbdbd;
+      transition: background-color 0.3s;
+    }
+  }
+
+  .icon-btn__project {
+    fill: #fff;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

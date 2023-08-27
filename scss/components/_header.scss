@@ -1,0 +1,39 @@
+.header {
+  // width: 1440px;
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-right: 260px;
+  }
+}
+.icon-logo {
+  margin-left: 130px;
+  width: 100px;
+  height: 75px;
+}
+.nav {
+  display: flex;
+  font-size: 18px;
+  text-transform: uppercase;
+  &-link {
+    display: flex;
+    align-items: center;
+  }
+
+  &-link:not(:last-child) {
+    margin-right: 60px;
+  }
+  &-link:focus,
+  &-link:hover {
+    color: red;
+    border-color: red;
+    transition: color 0.3s, border-color 0.3s;
+  }
+}
+
+.link-active {
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}

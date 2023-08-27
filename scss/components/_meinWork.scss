@@ -1,0 +1,35 @@
+.main-task {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 152px;
+
+  .section-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 60px;
+    color: #bdbdbd;
+  }
+
+  .task-list {
+    display: flex;
+    gap: 187px;
+
+    .task {
+      display: flex;
+
+      .img-task {
+        margin-right: 30px;
+        width: 120px; /* Тут змінив дубльовану властивість на ширину */
+        height: 140px; /* Додав властивість висоти */
+      }
+
+      .text-task {
+        font-family: Montserrat;
+        font-weight: 200;
+        font-size: 20px;
+        color: #333333;
+      }
+    }
+  }
+}
